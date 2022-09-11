@@ -1,4 +1,4 @@
-import {createElement}  from "../render";
+import {createElement} from '../render';
 
 const createFormEditPointTemplate = () => {
   `<form class="event event--edit" action="#" method="post">
@@ -153,17 +153,17 @@ const createFormEditPointTemplate = () => {
         <p class="event__destination-description">Chamonix-Mont-Blanc (usually shortened to Chamonix) is a resort area near the junction of France, Switzerland and Italy. At the base of Mont Blanc, the highest summit in the Alps, it's renowned for its skiing.</p>
       </section>
     </section>
-  </form>`
-}
+  </form>`;
+};
 
 export default class FormEdit {
   getTemplate() {
-    return createFormEditPointTemplate()
+    return createFormEditPointTemplate();
   }
 
   getElement() {
     if (!this.element) {
-      this.element = createElement(this.getTemplate())
+      this.element = createElement(this.getTemplate());
     }
 
     return this.element;

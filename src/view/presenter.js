@@ -4,8 +4,8 @@ import {FormEdit} from './form-edit';
 import {Sort} from './sort';
 import {FormCreate} from './form-create';
 
-import {render} from "../render";
-import TripView from "./trip-view";
+import {render} from '../render';
+import TripView from './trip-view';
 
 export default class TripPresenter {
   tripComponent = new TripView();
@@ -18,6 +18,5 @@ export default class TripPresenter {
     render(new FormEdit, this.tripComponent.getElement());
     render(new Sort, this.tripComponent.getElement());
     render(new FormCreate, this.tripComponent.getElement());
-  }
-
+  };
 }

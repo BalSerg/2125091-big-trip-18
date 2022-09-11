@@ -1,4 +1,4 @@
-import {createElement} from "../render";
+import {createElement} from '../render';
 
 const pointRouteTemplate = () => {
   `<ul class="trip-events__list">
@@ -120,8 +120,8 @@ const pointRouteTemplate = () => {
         </button>
       </div>
     </li>
-  </ul>`
-}
+  </ul>`;
+};
 
 export default class PointRoute {
   getTemplate() {

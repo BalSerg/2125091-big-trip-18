@@ -5,7 +5,7 @@ import {Sort} from 'view/sort';
 import {FormCreate} from 'view/form-create';
 import {TripView} from 'view/trip-view';
 
-import {TripPresenter} from 'view/presenter'
+import {TripPresenter} from 'view/presenter';
 
 const siteMainElement = document.querySelector('.main');
 

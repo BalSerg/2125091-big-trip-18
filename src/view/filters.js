@@ -1,4 +1,4 @@
-import {createElement} from "../render";
+import {createElement} from '../render';
 
 const createFiltersTemplate = () => {
   `<div class="trip-main__trip-controls  trip-controls">
@@ -23,10 +23,10 @@ const createFiltersTemplate = () => {
         <button class="visually-hidden" type="submit">Accept filter</button>
       </form>
     </div>
-  </div>`
-}
+  </div>`;
+};
 
-export  default class CreateFilters {
+export default class CreateFilters {
   getTemplate() {
     return createFiltersTemplate();
   }
