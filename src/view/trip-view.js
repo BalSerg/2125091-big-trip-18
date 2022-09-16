@@ -1,4 +1,4 @@
-import {createElement} from '../render';
+import {createElement} from '../render.js';
 
 const tripViewTemplate = () => {
   `<section class="trip-events"></section>`;
@@ -11,5 +11,6 @@ export default class TripView {
     if(!this.element) {
       this.element = createElement(this.getTemplate());
     }
+    return this.element
   }
 }

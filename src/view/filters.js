@@ -1,4 +1,4 @@
-import {createElement} from '../render';
+import {createElement} from '../render.js';
 
 const createFiltersTemplate = () => {
   `<div class="trip-main__trip-controls  trip-controls">

@@ -1,11 +1,11 @@
-import {PointRoute} from 'view/point-route';
-import {CreateFilters} from 'view/filters';
-import {FormEdit} from 'view/form-edit';
-import {Sort} from 'view/sort';
-import {FormCreate} from 'view/form-create';
-import {TripView} from 'view/trip-view';
+import PointRoute from './view/point-route.js';
+import CreateFilters from './view/filters.js';
+import FormEdit from './view/form-edit.js';
+import Sort from './view/sort.js';
+import FormCreate from './view/form-create.js';
+import TripView from './view/trip-view.js';
 
-import {TripPresenter} from 'view/presenter';
+import TripPresenter from './view/presenter.js';
 
 const siteMainElement = document.querySelector('.main');
 

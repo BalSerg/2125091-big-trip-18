@@ -1,11 +1,11 @@
-import {PointRoute} from './point-route';
-import {CreateFilters} from './filters';
-import {FormEdit} from './form-edit';
-import {Sort} from './sort';
-import {FormCreate} from './form-create';
+import PointRoute from './point-route.js';
+import CreateFilters from './filters.js';
+import FormEdit from './form-edit.js';
+import Sort from './sort.js';
+import FormCreate from './form-create.js';
 
-import {render} from '../render';
-import TripView from './trip-view';
+import {render} from '../render.js';
+import TripView from './trip-view.js';
 
 export default class TripPresenter {
   tripComponent = new TripView();

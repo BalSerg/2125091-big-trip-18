@@ -1,4 +1,4 @@
-import {createElement} from '../render';
+import {createElement} from '../render.js';
 
 const formCreateTemplate = () => {
   `<form class="event event--edit" action="#" method="post">
@@ -172,5 +172,6 @@ export default class FormCreate {
     if(!this.element) {
       this.element = createElement(this.getTemplate());
     }
+    return this.element
   }
 }
